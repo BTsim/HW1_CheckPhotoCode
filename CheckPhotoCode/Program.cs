@@ -43,12 +43,12 @@ namespace CheckPhotoCode
                     string photo_stick=Console.ReadLine();
                     if (photo_stick=="yes")
                    {
-                        Console.WriteLine("Go to payment");
+                        Console.WriteLine("Go to payment. Press any key");
                         Console.ReadLine();
                     }
                     else
                     {
-                        Console.WriteLine("Please stick in photo into documents and go to payment");
+                        Console.WriteLine("Please stick in photo into documents and go to payment. Press any key");
                         Console.ReadLine();
                     }
                     break;
